@@ -1,21 +1,60 @@
 # MBA-FULL-STACK
+
 Projeto Criado para Acompanhamento do MBA Full Stack IGTI
 OBS: As Branchs desse projeto representam cada modulo de estudo do MBA.
 
 # INSTALAÇÕES
-01. [NodeJs] (https://nodejs.org/en/) - Ambiente de desenvolvimento JS
+
+1.  [NodeJs](https://nodejs.org/en/) - Ambiente de desenvolvimento JS
+
 ```
 Comandos:
 
-node -v | verificar versão
+node -v | Verificar versão
 
 ```
-02. [LiveServer] (https://www.npmjs.com/package/live-server) - Servidor de Arquivos
+
+2.  [LiveServer](https://www.npmjs.com/package/live-server) - Servidor Web de Arquivos Estáticos
+
 ```
 Comandos:
 
-npm install -g live-server | Instalar 
+npm install -g live-server | Instalar
+live-server -v | Verificar Versão
+live-server | Servir Arquivos em porta padrão 8080
+live-server public --port=8081 | Servir Arquivos em Porta especificada
 
 ```
 
+3.  [VSCode](http://code.visualstudio.com) - IDE de Desenvolvimento
 
+```
+Extensões:
+
+* Degugger for Chrome
+* Prettier - Code formatter
+
+
+
+```
+
+4. [Windows]
+   Caso se depare com erro: Execução de Scripts Desabilitada
+
+```
+Utilize:
+Get-ExecutionPolicy | Visualizar qual politica de execução atual
+Set-ExecutionPolicy | Setar uma nova Politica de execução de Script
+
+Ex: Set-ExecutionPolicy RemoteSigned
+
+Podem ser:
+
+Restricted : Não carrega nem executa arquivos de configuração e/ou scripts do Powershell.
+AllSigned : Só executa scripts e arquivos de configuração assinados por um fornecedor confiável, mesmo que o script tenha sido escrito por você mesmo (local).
+RemoteSigned : É basicamente o mesmo que o acima, porém permite a execução de arquivos de configuração e/ou scripts locais.
+Unrestricted : Carrega e executa todos os arquivos de configuração e scripts PowerShell. Pode ser pedida uma confirmação para executar scripts não assinados.
+Bypass : Não há nenhuma restrição.
+Undefined : Remove a política de execução atual. A não ser que ela esteja definida numa diretiva de grupo.
+
+```
