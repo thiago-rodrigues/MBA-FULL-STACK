@@ -1,9 +1,10 @@
 # MBA-FULL-STACK
 
 Projeto Criado para Acompanhamento do MBA Full Stack IGTI
-OBS: As Branchs desse projeto representam cada modulo de estudo do MBA.
 
-# INSTALAÇÕES
+### Branch : NodeJsM0
+
+## INSTALAÇÕES
 
 1.  [NodeJs](https://nodejs.org/en/) - Ambiente de desenvolvimento JS
 
@@ -29,7 +30,7 @@ live-server public --port=8081 | Servir Arquivos em Porta especificada
 3.  [VSCode](http://code.visualstudio.com) - IDE de Desenvolvimento
 
 ```
-Extensões:
+**Extensões:**
 
 * Degugger for Chrome
 * Prettier - Code formatter
@@ -38,23 +39,24 @@ Extensões:
 
 ```
 
-4. [Windows]
+4. [Windows](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-executionpolicy?view=powershell-7.2)
    Caso se depare com erro: Execução de Scripts Desabilitada
 
 ```
-Utilize:
+**Utilize:**
+
 Get-ExecutionPolicy | Visualizar qual politica de execução atual
 Set-ExecutionPolicy | Setar uma nova Politica de execução de Script
 
-Ex: Set-ExecutionPolicy RemoteSigned
+**Ex: Set-ExecutionPolicy RemoteSigned**
 
 Podem ser:
 
-Restricted : Não carrega nem executa arquivos de configuração e/ou scripts do Powershell.
-AllSigned : Só executa scripts e arquivos de configuração assinados por um fornecedor confiável, mesmo que o script tenha sido escrito por você mesmo (local).
-RemoteSigned : É basicamente o mesmo que o acima, porém permite a execução de arquivos de configuração e/ou scripts locais.
-Unrestricted : Carrega e executa todos os arquivos de configuração e scripts PowerShell. Pode ser pedida uma confirmação para executar scripts não assinados.
-Bypass : Não há nenhuma restrição.
-Undefined : Remove a política de execução atual. A não ser que ela esteja definida numa diretiva de grupo.
+**Restricted** : Não carrega nem executa arquivos de configuração e/ou scripts do Powershell.
+**AllSigned** : Só executa scripts e arquivos de configuração assinados por um fornecedor confiável, mesmo que o script tenha sido escrito por você mesmo (local).
+**RemoteSigned** : É basicamente o mesmo que o acima, porém permite a execução de arquivos de configuração e/ou scripts locais.
+**Unrestricted** : Carrega e executa todos os arquivos de configuração e scripts PowerShell. Pode ser pedida uma confirmação para executar scripts não assinados.
+**Bypass** : Não há nenhuma restrição.
+**Undefined** : Remove a política de execução atual. A não ser que ela esteja definida numa diretiva de grupo.
 
 ```
