@@ -1,4 +1,4 @@
-# MBA-FULL-STACK - NodeJsM0
+# NodeJsM0 : Módulo 0 - Fundamentos de Front End
 
 Projeto Criado para Acompanhamento do MBA Full Stack IGTI
 
