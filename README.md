@@ -9,3 +9,4 @@ Projeto Criado para Acompanhamento do MBA Full Stack IGTI
 0. **main** : Informações do Projeto
 1. **NodeJsM0** : Módulo 0 - Fundamentos de Front End
 2. **NodeJsM1** : Módulo 1 - Desenvolvimento Back End com JavaScript
+3. **NodeJsM2** : Módulo 2 - Autenticação e Autorização com JavaScript
