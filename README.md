@@ -116,3 +116,5 @@ multiplicacao();
 
 1. [Electron](https://www.electronjs.org/) - FrameWork de Desenvolvimento Desktop
 2. [Restify](http://restify.com/) - FrameWork para Desenvolvimento de API Rest
+3. [Joi](https://joi.dev/api/?v=17.6.0) - Lib para validação de campos em API
+4. [Deno](https://deno.land/) - Framework Similar ao próprio Node
