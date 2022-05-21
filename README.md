@@ -112,6 +112,15 @@ multiplicacao();
 
 **http** - Trabalhar com requisições
 
+4. [Winston](https://www.npmjs.com/package/winston) - Biblioteca de Logs
+
+commandos:
+
+```
+npm install winston | Instala Winston no Projeto
+
+```
+
 ## FERRAMENTAS A CONHECER
 
 1. [Electron](https://www.electronjs.org/) - FrameWork de Desenvolvimento Desktop
