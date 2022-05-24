@@ -1,0 +1,39 @@
+2022-05-24T10:43:29.462Z [api-bank-simple] info: API Started!
+2022-05-24T10:43:42.389Z [api-bank-simple] error: POST /account ENOENT: no such file or directory, open 'D:\THIAGOR\PESSOAL\ESTUDO\MBA-IGTI\MBA-FULL-STACK\api-bank-simple\accounts.json'
+2022-05-24T10:51:21.677Z [api-bank-simple] info: API Started and File Created!
+2022-05-24T10:52:06.662Z [api-bank-simple] info: API Started!
+2022-05-24T10:52:48.518Z [api-bank-simple] info: API Started!
+2022-05-24T10:54:03.984Z [api-bank-simple] info: API Started!
+2022-05-24T10:54:59.863Z [api-bank-simple] info: API Started!
+2022-05-24T10:55:45.326Z [api-bank-simple] info: API Started!
+2022-05-24T10:56:25.667Z [api-bank-simple] info: API Started!
+2022-05-24T10:56:43.317Z [api-bank-simple] info: POST /account - {"id":1,"name":"Janine de Oliveira","balance":1500.72}
+2022-05-24T10:56:59.744Z [api-bank-simple] info: POST /account - {"id":2,"name":"Thiago Ribeiro Rodrigues","balance":1600.72}
+2022-05-24T10:57:17.488Z [api-bank-simple] info: POST /account - {"id":3,"name":"João das Coves","balance":1600.73}
+2022-05-24T10:57:25.645Z [api-bank-simple] info: PUT /account - {"id":2,"name":"Thiago Ribeiro Rodrigues","balance":15000}
+2022-05-24T10:57:33.588Z [api-bank-simple] info: PATCH /account/UpdateBalance - {"id":2,"name":"Thiago Ribeiro Rodrigues","balance":20000.99}
+2022-05-24T10:57:52.363Z [api-bank-simple] info: GET /account/:id
+2022-05-24T10:57:56.256Z [api-bank-simple] info: GET /account/:id
+2022-05-24T10:58:00.780Z [api-bank-simple] info: GET /account
+2022-05-24T11:02:07.013Z [api-bank-simple] info: DELETE /account/:id - 3
+2022-05-24T11:02:21.215Z [api-bank-simple] info: GET /account
+2022-05-24T11:02:44.517Z [api-bank-simple] info: POST /account - {"id":4,"name":"Maria dos Alfaces","balance":1600.73}
+2022-05-24T11:02:53.408Z [api-bank-simple] info: GET /account
+2022-05-24T11:07:15.594Z [api-bank-simple] info: API Started!
+2022-05-24T11:07:52.195Z [api-bank-simple] error: POST /account Name e Balance são obrigatórios
+2022-05-24T11:08:03.039Z [api-bank-simple] error: POST /account Name e Balance são obrigatórios
+2022-05-24T11:08:09.815Z [api-bank-simple] info: POST /account - {"id":5,"name":"Maria dos Alfaces 2","balance":1600.73}
+2022-05-24T11:08:48.268Z [api-bank-simple] info: API Started!
+2022-05-24T11:10:55.444Z [api-bank-simple] info: API Started!
+2022-05-24T11:13:57.526Z [api-bank-simple] info: API Started!
+2022-05-24T11:14:50.270Z [api-bank-simple] info: API Started!
+2022-05-24T11:14:59.713Z [api-bank-simple] error: PUT /account Registro não encontrado!
+2022-05-24T11:15:12.306Z [api-bank-simple] info: GET /account
+2022-05-24T11:15:35.225Z [api-bank-simple] info: PUT /account - {"id":5,"name":"Maria Joana silva","balance":15000}
+2022-05-24T11:15:42.960Z [api-bank-simple] info: GET /account
+2022-05-24T11:17:24.531Z [api-bank-simple] info: API Started!
+2022-05-24T11:17:26.899Z [api-bank-simple] info: API Started!
+2022-05-24T11:18:44.897Z [api-bank-simple] info: API Started!
+2022-05-24T11:20:28.707Z [api-bank-simple] info: API Started!
+2022-05-24T11:21:26.476Z [api-bank-simple] info: API Started!
+2022-05-24T11:22:27.774Z [api-bank-simple] info: API Started!
